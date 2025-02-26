@@ -14,7 +14,9 @@ body {
 /* Center the Badge component inside the app container */
 .App {
   text-align: center;
-  width: 100%; /* Ensure content spans the full width */
+  width: 100vw; /* Ensure content spans the full width */
+  height: 100vh;
+  max-height: -webkit-fill-available;
 }
 
 .content {
@@ -29,4 +31,3 @@ body {
   background-color: #198754; /* Bootstrap's success color */
   color: white !important; /* Ensure text in badge is always white */
 }
-
